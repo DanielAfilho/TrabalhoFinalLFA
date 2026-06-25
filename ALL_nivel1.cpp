@@ -166,6 +166,8 @@ int main() {
     cout << "\nDigite a string para testar: ";
     cin >> entrada;
 
+    entrada = "[" + entrada + "]";
+
     valida(entrada, F, estadoInicial);
 
     return 0;
