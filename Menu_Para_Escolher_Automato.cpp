@@ -52,25 +52,26 @@ exemplos Nivel 2:
 =====================================================================
 aqui eh o formato das entradas, os exemplos são do automato a pilha, basicamente vc esta criando as "setas" do jflap, e com isso cria os estados por consequencia
 exemplos Nivel 3:
-    {"nomeDoEstado", 'o que é lido na entrada', 'o topo da pilha', 'o que vai ser colocado na pilha' <-(se nao tiver nada ele apenas faz o pop na pilha), "nomeDoProximoEstado"}
-
-    {"q0", 'a', 'Z', "AZ", "q0"}, q0 a Z A q0 y 
-    {"q0", 'a', 'A', "AA", "q0"}, q0 a A A q0 y
-    {"q0", 'b', 'A', "", "q1"}, q0 b A "" q1 y
-    {"q1", 'b', 'A', "", "q1"} q1 b A "" q1 n
-    
-    {"q0", 'a', 'Z', "AZ", "q0"}, q0 a Z A q0 y
-    {"q0", 'a', 'A', "AA", "q0"}, q0 a A A q0 y
-    {"q0", 'b', 'A', "CCA", "q1"}, q0 b A "" q1 y
-    {"q1", 'b', 'C', "CCC", "q1"} q1 b A "" q1 n
-    {"q1", 'c', 'C', "", "q1"} q1 b A "" q1 n
-    {"q1", 'c', 'C', "", "q1"} q1 b A "" q1 n
-    
-    {"q0", 'a', 'Z', "AZ", "q0"}, q0 a Z A q0 y
-    {"q0", 'a', 'A', "AA", "q0"}, q0 a A A q0 y
-    {"q0", 'c', 'Z', "n", "q1"}, q0 b A "" q1 y
-    {"q0", 'c', 'A', "n", "q1"}, q0 b A "" q1 y
-    {"q1", 'b', 'A', "", "q1"} q1 b A "" q1 n
+q0           
+a           
+q1           
+y            
+q0          
+b
+q0
+y
+q1           
+a
+q1
+y
+q1           
+b
+q0
+n            
+q0           
+q1           
+para         
+bba   
 */
 //=====================================================================
 // Nivel1 Funçoes:
