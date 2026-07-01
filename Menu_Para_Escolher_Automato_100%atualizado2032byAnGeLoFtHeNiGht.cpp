@@ -76,6 +76,22 @@ exemplos Nivel 2:
     {"q0", 'c', 'Z', "n", "q1"}, q0 b A "" q1 y
     {"q0", 'c', 'A', "n", "q1"}, q0 b A "" q1 y
     {"q1", 'b', 'A', "", "q1"} q1 b A "" q1 n
+---------------------------------------------------
+    q0 a Z A q0 y
+    q0 a A A q0 y
+    q0 b A "" q1 y
+    q1 b A "" q1 n
+    
+    q0 a Z A q0 y
+    q0 a A A q0 y
+    q0 b A "" q1 y
+    q1 b A "" q1 n
+    
+    q0 a Z A q0 y
+    q0 a A A q0 y
+    q0 b A "" q1 y
+    q0 b A "" q1 y
+    q1 b A "" q1 n
 
 =====================================================================
 aqui eh o formato das entradas, os exemplos são do automato a pilha, basicamente vc esta criando as "setas" do jflap, e com isso cria os estados por consequencia
