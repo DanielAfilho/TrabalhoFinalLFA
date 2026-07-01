@@ -656,7 +656,7 @@ void Nivel3(){
 int main(){
     
     int Respsta = 0;
-    cout << "Qual hierarquia será utilizada?\nR:";
+    cout << "Qual hierarquia será utilizada?(0, 1, 2 e 3)\nR:";
     cin >> Respsta;
     switch(Respsta){
         case 0:
@@ -670,6 +670,9 @@ int main(){
         break;
         case 3:
         Nivel3();
+        break;
+        default:
+        cout << "Não é uma opção valida";
         break;
     }
     return 0;
